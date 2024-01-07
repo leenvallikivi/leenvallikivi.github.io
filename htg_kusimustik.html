@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Redirect</title>
+    <script type="text/javascript">
+      var formUrlA = 'URL_OF_FORM_A';
+      var formUrlB = 'URL_OF_FORM_B';
+      window.onload = function() {
+        var formUrl = (Math.random() < 0.5) ? formUrlA : formUrlB;
+        window.location.href = formUrl;
+      }
+    </script>
+  </head>
+  <body>
+    <p>Laen küsimustikku...</p>
+  </body>
+</html>
